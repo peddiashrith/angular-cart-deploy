@@ -117,8 +117,16 @@
               "devServerTarget": "angular-cart-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "angular-cart-app"
+    }
+  },
+  "defaultProject": "angular-cart-app",
+  "cli": {
+    "analytics": "8421926f-ce6e-471e-a6ab-587d27f4b1ee"
+  }
 }
